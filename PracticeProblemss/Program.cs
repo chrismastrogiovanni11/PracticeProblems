@@ -30,9 +30,10 @@ namespace PracticeProblemss
             foreach (var student in classGrades)
             {
                 //double.Parse(Console.WriteLine(student));
-                
 
-                var studentGrades = student.Split(',').ToArray().;
+
+                var studentGrades = student.Split(',').Select(s => double.Parse(s)).ToArray();
+                
 
 
             }
