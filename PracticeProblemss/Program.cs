@@ -32,7 +32,7 @@ namespace PracticeProblemss
                 //double.Parse(Console.WriteLine(student));
 
 
-                var studentGrades = student.Split(',').Select(s => double.Parse(s)).ToArray();
+                var studentGrades = student.Split(',').Select(s => double.Parse(s)).ToArray().Where(s =>s. )
                 
 
 
